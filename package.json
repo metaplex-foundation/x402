@@ -1,0 +1,80 @@
+{
+  "name": "@metaplex-foundation/x402",
+  "version": "0.1.0",
+  "description": "A TypeScript client for Metaplex x402 integrations.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "pnpm clean && tsc -p tsconfig.json",
+    "format": "prettier --write .",
+    "prepack": "pnpm build",
+    "example:openai-standard": "pnpm --filter @examples/openai-standard start",
+    "example:openai-core-asset": "pnpm --filter @examples/openai-core-asset start",
+    "example:openai-core-delegate": "pnpm --filter @examples/openai-core-delegate start",
+    "example:vercel-ai-standard": "pnpm --filter @examples/vercel-ai-standard start",
+    "example:vercel-ai-core-asset": "pnpm --filter @examples/vercel-ai-core-asset start",
+    "example:vercel-ai-core-delegate": "pnpm --filter @examples/vercel-ai-core-delegate start",
+    "example:rpc-standard": "pnpm --filter @examples/rpc-standard start",
+    "example:rpc-core-asset": "pnpm --filter @examples/rpc-core-asset start",
+    "example:rpc-core-delegate": "pnpm --filter @examples/rpc-core-delegate start",
+    "example:rpc-web3js-standard": "pnpm --filter @examples/rpc-web3js-standard start",
+    "example:rpc-web3js-core-asset": "pnpm --filter @examples/rpc-web3js-core-asset start",
+    "example:rpc-web3js-core-delegate": "pnpm --filter @examples/rpc-web3js-core-delegate start"
+  },
+  "keywords": [
+    "metaplex",
+    "x402",
+    "typescript"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metaplex-foundation/x402.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metaplex-foundation/x402/issues"
+  },
+  "homepage": "https://metaplex.com",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20.18.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.5",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "@metaplex-foundation/umi": "^1.4.1",
+    "@solana/kit": ">=5.1.0",
+    "zod": "^4.3.5"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-core": "^1.10.0",
+    "@metaplex-foundation/mpl-toolbox": "^0.11.4",
+    "@metaplex-foundation/umi-bundle-defaults": "1.4.1",
+    "@solana/web3.js": "^1.98.4",
+    "@x402/core": "^2.19.0",
+    "@x402/extensions": "^2.19.0",
+    "@x402/svm": "^2.19.0",
+    "jose": "^6.2.3",
+    "zod": "^4.4.3"
+  }
+}

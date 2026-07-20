@@ -1,0 +1,15 @@
+const DELEGATE_API_PATH = '/x402/core-execute-delegate';
+
+export const DELEGATE_APPROVE_PATH = `${DELEGATE_API_PATH}/approve`;
+export const DELEGATE_AUTH_PATH = `${DELEGATE_API_PATH}/auth`;
+export const DELEGATE_REVOKE_PATH = `${DELEGATE_API_PATH}/revoke`;
+export const DELEGATE_STATUS_PATH = `${DELEGATE_API_PATH}/status`;
+
+export const METAPLEX_CORE_EXECUTE_DELEGATE_EXTENSION_KEY =
+  'metaplex-core-execute-delegate';
+
+export const METAPLEX_CORE_EXECUTE_DELEGATE_PAYMENT_REQUIRED_HEADER =
+  'X-DELEGATED-PAYMENT-REQUIRED';
+
+export const METAPLEX_CORE_EXECUTE_DELEGATE_ASSET_HEADER =
+  'X-METAPLEX-CORE-ASSET';
