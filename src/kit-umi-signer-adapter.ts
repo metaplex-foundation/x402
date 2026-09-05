@@ -23,9 +23,9 @@ export type MetaplexSvmSigner = UmiSigner | TransactionPartialSigner;
 
 export interface KitPartialTransactionSignerToUmiSignerOptions {
   /**
-   * UMI transactions keep the recent blockhash but not the last valid block
+   * Umi transactions keep the recent blockhash but not the last valid block
    * height. If omitted, the adapter provides a placeholder lifetime constraint
-   * using the UMI transaction blockhash. Pass this when your Kit signer validates
+   * using the Umi transaction blockhash. Pass this when your Kit signer validates
    * transaction lifetimes before signing.
    */
   getLifetimeConstraint?: (

@@ -29,9 +29,9 @@
     "example:vercel-ai-standard": "pnpm --filter @examples/vercel-ai-standard start",
     "example:vercel-ai-core-asset": "pnpm --filter @examples/vercel-ai-core-asset start",
     "example:vercel-ai-core-delegate": "pnpm --filter @examples/vercel-ai-core-delegate start",
-    "example:rpc-standard": "pnpm --filter @examples/rpc-standard start",
-    "example:rpc-core-asset": "pnpm --filter @examples/rpc-core-asset start",
-    "example:rpc-core-delegate": "pnpm --filter @examples/rpc-core-delegate start",
+    "example:rpc-kit-standard": "pnpm --filter @examples/rpc-kit-standard start",
+    "example:rpc-kit-core-asset": "pnpm --filter @examples/rpc-kit-core-asset start",
+    "example:rpc-kit-core-delegate": "pnpm --filter @examples/rpc-kit-core-delegate start",
     "example:rpc-web3js-standard": "pnpm --filter @examples/rpc-web3js-standard start",
     "example:rpc-web3js-core-asset": "pnpm --filter @examples/rpc-web3js-core-asset start",
     "example:rpc-web3js-core-delegate": "pnpm --filter @examples/rpc-web3js-core-delegate start"

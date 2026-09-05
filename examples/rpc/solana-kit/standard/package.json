@@ -1,5 +1,5 @@
 {
-  "name": "@examples/rpc-standard",
+  "name": "@examples/rpc-kit-standard",
   "version": "0.0.0",
   "private": true,
   "type": "module",
