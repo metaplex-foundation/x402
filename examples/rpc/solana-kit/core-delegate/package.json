@@ -1,5 +1,5 @@
 {
-  "name": "@examples/rpc-core-delegate",
+  "name": "@examples/rpc-kit-core-delegate",
   "version": "0.0.0",
   "private": true,
   "type": "module",

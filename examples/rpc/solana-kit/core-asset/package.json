@@ -1,5 +1,5 @@
 {
-  "name": "@examples/rpc-core-asset",
+  "name": "@examples/rpc-kit-core-asset",
   "version": "0.0.0",
   "private": true,
   "type": "module",
