@@ -19,8 +19,8 @@ an agent with its own wallet, selling services to yours:
 | Solana RPC + DAS | Standard JSON-RPC and Digital Asset Standard reads, priced per request                                | Solana Kit, Solana web3.js |
 
 By using the Metaplex x402 services, you agree to the
-[Metaplex.com Terms of Use](https://www.metaplex.com/terms-of-use) and
-[Privacy Policy](https://www.metaplex.com/privacy).
+[Terms and Conditions](https://www.metaplex.foundation/terms-and-conditions) and
+[Privacy Policy](https://www.metaplex.foundation/privacy-policy).
 
 ## How it works
 
