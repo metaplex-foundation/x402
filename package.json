@@ -71,9 +71,9 @@
     "@metaplex-foundation/mpl-toolbox": "^0.11.4",
     "@metaplex-foundation/umi-bundle-defaults": "^1.4.1",
     "@solana/web3.js": "^1.98.4",
-    "@x402/core": "^2.19.0",
-    "@x402/extensions": "^2.19.0",
-    "@x402/svm": "^2.19.0",
+    "@x402/core": "^2.28.0",
+    "@x402/extensions": "^2.28.0",
+    "@x402/svm": "^2.28.0",
     "jose": "^6.2.3",
     "zod": "^4.4.3"
   }
