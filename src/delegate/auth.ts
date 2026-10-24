@@ -74,7 +74,13 @@ export async function authorizeMetaplexCoreExecuteDelegate({
     throw new Error('Delegated auth challenge must use a Solana signer.');
   }
 
-  const payload = await createSIWxPayload(challenge, signer);
+  // Bind the challenge to the origin that issued it (@x402/extensions >=2.23
+  // rejects challenges whose domain/uri do not match the response URL).
+  const payload = await createSIWxPayload(
+    challenge,
+    signer,
+    challengeResponse.url || authEndpoint,
+  );
   const siwxHeader = encodeSIWxHeader(payload);
   const authResponse = await globalThis.fetch(authEndpoint, {
     method: 'POST',
